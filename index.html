@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório Resolve seu problema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Escritório Resolve seu problema</h1>
+        <nav>
+            <ul>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="time.html">Time</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="trabalhe.html">Trabalhe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>Representação de clientes em processos judiciais, administrativos ou extrajudiciais à elaboração de contratos, entre outros.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="noticias">
+            <h2>Últimas Notícias</h2>
+            <ul>
+                <li><a href="#" onclick="mostrarTexto('noticia1')">Você sabia...</a></li>
+                <li><a href="#" onclick="mostrarTexto('noticia2')">Novas leis...</a></li>
+                <li><a href="#" onclick="mostrarTexto('noticia3')">Direitos do consumidor...</a></li>
+            </ul>
+            <div id="noticia1" style="display: none;">
+                <p>Polícia indicia advogado que gastou R$ 13 mil em compras e depois registrou ocorrência por suposto sequestro-relâmpago.</p>
+            </div>
+            <div id="noticia2" style="display: none;">
+                <p>Advogado de filhas de Gugu diz quem teria 'plantado' suposto namorado.</p>
+            </div>
+            <div id="noticia3" style="display: none;">
+                <p>Advogado que mandou matar empresário em Balneário Camboriú por cobrança de dívida tem pena mantida.</p>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>Atendimento WhatsApp: (11) 94735-3321</p>
+        <p>Trabalhe Conosco: (11) 9234-4678</p>
+        <p>Telefones de Contato: (11) 9335-6769</p>
+        <p>Endereço: Av. dos Passarinhos, 676 - Uberlândia, MG</p>
+        <p>&copy; 2023 Escritório Resolve seu problema</p>
+        <div class="redes-sociais">
+            <a href="#"><img src="facebook.png" width="30" height="30" Facebook></a>
+            <a href="#"><img src="Twitter.png"width="30" height="30" Twitter></a>
+            <a href="#"><img src="Linkedin.webp"width="30" height="30" alt="LinkedIn"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
